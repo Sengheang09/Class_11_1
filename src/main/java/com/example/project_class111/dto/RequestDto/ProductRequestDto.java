@@ -1,19 +1,18 @@
 package com.example.project_class111.dto.RequestDto;
 
 import jakarta.persistence.Column;
-import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.web.multipart.MultipartFile;
-
 import java.math.BigDecimal;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class ProductRequestDto {
 
     @NotBlank(message = "name must be not blank")

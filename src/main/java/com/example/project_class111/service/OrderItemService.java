@@ -7,7 +7,10 @@ import java.util.List;
 
 public interface OrderItemService {
     OrderItemResponseDto createOrderItem(Long orderId, OrderItemRequestDto orderItemRequestDto);
+
     OrderItemResponseDto getOrderItemById(Long id);
+
     List<OrderItemResponseDto> getOrderItemsByOrderId(Long orderId);
+
     void deleteOrderItem(Long id);
 }

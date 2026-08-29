@@ -16,7 +16,8 @@ public class OrderItemRequestDto {
     @NotNull(message = "Product ID must not be null")
     private Long productId;
 
-    private String description;
+    @NotNull(message = "Product quantity must not be null")
+    private Integer quantity;
 
     @NotNull(message = "Price must not be null")
     @Positive(message = "Price must be positive")

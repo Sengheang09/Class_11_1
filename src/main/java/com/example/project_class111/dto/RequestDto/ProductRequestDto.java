@@ -24,7 +24,7 @@ public class ProductRequestDto {
 
     private BigDecimal price;
 
-    private MultipartFile imageUrl;
+    private MultipartFile file;
 
     private int stock;
 

@@ -30,6 +30,8 @@ public class Product {
     @Column(nullable = false)
     private String imageUrl;
 
+    private String publicId;
+
     private int stock;
 
     @ManyToOne(fetch = FetchType.LAZY)

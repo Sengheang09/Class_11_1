@@ -10,4 +10,5 @@ public interface UserService {
     MessageResponse createUser(RegisterRequest request);
 
     LoginResponse login(LoginRequest request);
+
 }
